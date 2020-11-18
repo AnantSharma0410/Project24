@@ -16,7 +16,7 @@ class Paper {
     translate(this.body.position.x, this.body.position.y);
     rotate(angle);
     fill("green")
-    ellipseMode(this.radius);
+    ellipseMode(RADIUS);
     ellipse(0,0,this.radius,this.radius);
     pop();
   }
